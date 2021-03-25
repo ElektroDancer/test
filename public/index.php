@@ -8,4 +8,6 @@ $factory = new Factory();
 
 $helloWorld = $factory->createHelloWorld();
 
-echo $helloWorld->run();
+echo 'Test';
+
+var_dump($helloWorld->run());
