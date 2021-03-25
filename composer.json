@@ -1,0 +1,19 @@
+{
+  "name": "elektrodancer/test",
+  "description": "test repo",
+  "license": "GPL-3.0-or-later",
+  "autoload": {
+    "classmap": [
+      "src/"
+    ]
+  },
+  "require": {
+    "ext-mbstring": "*",
+    "ext-dom": "*",
+    "ext-pdo": "*"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest",
+    "phpunit/phpunit": "^8"
+  }
+}
