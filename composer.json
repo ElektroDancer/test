@@ -4,16 +4,13 @@
   "license": "GPL-3.0-or-later",
   "autoload": {
     "classmap": [
-      "src/"
+      "app/"
     ]
   },
   "require": {
-    "ext-mbstring": "*",
-    "ext-dom": "*",
-    "ext-pdo": "*"
+    "ext-mbstring": "*"
   },
   "require-dev": {
-    "roave/security-advisories": "dev-latest",
-    "phpunit/phpunit": "^8"
+    "roave/security-advisories": "dev-latest"
   }
 }

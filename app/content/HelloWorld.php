@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace elektrodancer\test;
 
-class HelloWorld
+class HelloWorld implements Content
 {
-    public function run(): string
+    public function getContent(): string
     {
         return 'Hello World';
     }

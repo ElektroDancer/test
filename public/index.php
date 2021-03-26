@@ -6,6 +6,6 @@ require_once(__DIR__ . '/../vendor/autoload.php');
 
 $factory = new Factory();
 
-$helloWorld = $factory->createHelloWorld();
+$app = $factory->createApplication();
 
-echo $helloWorld->run();
+echo $app->run();
