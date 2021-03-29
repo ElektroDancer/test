@@ -15,7 +15,7 @@ class Router
         $this->notFoundContent = $notFound;
     }
 
-    public function getContentForURL($url): Content
+    public function getContentForURL(string $url): Content
     {
         $url = strtolower($url);
 
